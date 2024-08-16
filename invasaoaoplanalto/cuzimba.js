@@ -7,7 +7,6 @@ const cartas = [
     "raridade": "comum",
     "colecao": "The Brothers' War",
     "num_serie": "275",
-    "quantidade": "8",
     "imagem_url": "URL da Imagem",
     "habilidades": []
   },
@@ -20,7 +19,6 @@ const cartas = [
     "raridade": "comum",
     "colecao": "The Brothers' War",
     "num_serie": "277",
-    "quantidade": "8",
     "imagem_url": "URL da Imagem",
     "habilidades": []
   },
@@ -472,4 +470,4 @@ const cartas = [
 
 ]
 
-console.log(cartas);
+console.log(JSON.stringify(cartas, null, 2));
