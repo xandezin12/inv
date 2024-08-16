@@ -1,6 +1,6 @@
 const cartas = [
   {
-    "nome": "Mountain",
+    "nome": "Mountanha",
     "tipo": "Terreno",
     "forca": "0",
     "resistencia": "0",
@@ -10,6 +10,19 @@ const cartas = [
     "imagem_url": "URL da Imagem",
     "habilidades": []
   },
+
+  {
+    "nome": "floresta",
+    "tipo": "Terreno",
+    "forca": "0",
+    "resistencia": "0",
+    "raridade": "comum",
+    "colecao": "The Brothers' War",
+    "num_serie": "277",
+    "imagem_url": "URL da Imagem",
+    "habilidades": []
+  },
+
   {
     "nome": "Batalhão Skitterbeam",
     "tipo": "Terreno",
@@ -146,11 +159,28 @@ const cartas = [
     "num_serie": "174",
     "imagem_url": "URL da Imagem",
     "habilidades": [
-      {"nome": "Procure em seu grimório um card de terreno básico, revele-o, coloque-o em sua mão e depois embaralhe, A criatura alvo que você controla luta contra a criatura alvo que você não controla. (Cada uma causa dano igual ao seu poder à outra.)"
+      {"nome": "Choose one — Search your library for a basic land card, reveal it, put it into your hand, then shuffle. Target creature you control fights target creature you don’t control. (Each deals damage equal to its power to the other."
   
       }
     ]
   },
 
+  {
+    "nome": "Epic Confrontation",
+    "tipo": "sorcery",
+    "custo_mana": "8",
+    "valor de mana": "8",
+    "forca": "5",
+    "resistencia": "5",
+    "raridade": "incomum",
+    "colecao": "The Brothers' War",
+    "num_serie": "159",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "Voar (Flying), Habilidade de Pump, Habilidade de Pump"
+  
+      }
+    ]
+  },
 
 ]
