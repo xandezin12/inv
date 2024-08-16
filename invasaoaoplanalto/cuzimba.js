@@ -325,6 +325,151 @@ const cartas = [
       }
     ]
   },
+  {
+    "nome": "Golias de ferrugem",
+    "tipo": "Criatura Artefato - Construir",
+    "custo_mana": "10",
+    "valor de mana": "10",
+    "forca": "10",
+    "resistencia": "10",
+    "raridade": "comum",
+    "colecao": "The Brothers' War",
+    "num_serie": "204",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "protótipo (Prototype), Reach, Temple"
+  
+      }
+    ]
+  },
+
+  {
+    "nome": "Patrulha de perimetro",
+    "tipo": "Criatura - Soldado Humano",
+    "custo_mana": "2",
+    "valor de mana": "3",
+    "forca": "3",
+    "resistencia": "3",
+    "raridade": "Comum",
+    "colecao": "The Brothers' War",
+    "num_serie": "188",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "Quando um artefato entra no campo de batalha sob seu controle, a Patrulha do Perimetro ganha +1/+0 até o fim do turno"
+  
+      }
+    ]
+  },
+
+  {
+    "nome": "Mesa de Pesquisas de Mishra",
+    "tipo": "Artefato",
+    "custo_mana": "1",
+    "valor de mana": "1",
+    "forca": "X",
+    "resistencia": "X",
+    "raridade": "Incomum",
+    "colecao": "The Brothers' War",
+    "num_serie": "162",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "Sacrifique Mesa de Pesquisas de Mishra: Exile os dois card do topo de seu grimório, Escolha um deles. Até o final do seu próximo turno, você pode jogar aquele card. , Desenterrar"
+  
+      }
+    ]
+  },
+
+  {
+    "nome": "Automato Chamador de Madeira",
+    "tipo": "Criatura Artefato - Construir",
+    "custo_mana": "10",
+    "valor de mana": "10",
+    "forca": "8",
+    "resistencia": "8",
+    "raridade": "Cru",
+    "colecao": "The Brothers' War",
+    "num_serie": "292",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "Prototype, Quando Autmato Chamador de Madeira entra no campo de batalha, se você o conjurar, desvire o terreno que você controle, Ele se tornara numa criatura Treefolk com haste, e poder e defesa base iguais ao poder de Automaton, Ele ainda é um terreno."
+  
+      }
+    ]
+  },
+
+  {
+    "nome": "Explosão de Escavação",
+    "tipo": "Feitiçaria",
+    "custo_mana": "2",
+    "valor de mana": "3",
+    "forca": "X",
+    "resistencia": "X",
+    "raridade": "Comum",
+    "colecao": "The Brothers' War",
+    "num_serie": "132",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": " Explosão de Escavação causa 3 de dano para qualquer alvo. Crie uma ficha de Powerstone virada"
+  
+      }
+    ]
+  },
+
+  {
+    "nome": "Sucateiro Tomacul",
+    "tipo": "Criatura - Atifíce Humanp",
+    "custo_mana": "2",
+    "valor de mana": "3",
+    "forca": "2",
+    "resistencia": "1",
+    "raridade": "Comum",
+    "colecao": "The Brothers' War",
+    "num_serie": "153",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "Quando Tomakul Scrapmith enrar, triture três card. Você pode colocar um card de artefato dentre os cards triturados dessa forma em sua mão, Se não o fizer, coloque um marcados +1/+1 em Tomakul Scrapsmith. (Para triturar um card, coloque o card do topo do seu grimóreio em seu cemitério."
+  
+      }
+    ]
+  },
+
+  {
+    "nome": "Caçador de pedras com chifres",
+    "tipo": "Criatura - Lagarto",
+    "custo_mana": "1",
+    "valor de mana": "2",
+    "forca": "2",
+    "resistencia": "2",
+    "raridade": "Incomum",
+    "colecao": "The Brothers' War",
+    "num_serie": "138",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": "Ameaça"
+  
+      }
+    ]
+  },
+
+  {
+    "nome":"Sprite Argothiano ",
+    "tipo": "Criatura - Fada",
+    "custo_mana": "1",
+    "valor de mana": "2",
+    "forca": "2",
+    "resistencia": "2",
+    "raridade": "Comum",
+    "colecao": "The Brothers' War",
+    "num_serie": "168",
+    "imagem_url": "URL da Imagem",
+    "habilidades": [
+      {"nome": " Sprite Argothiano não pode ser bloqueado por criaturas Artefato, Coloque dois marcadores +1/+1 no Sprite Argothiano."
+  
+      }
+    ]
+  }
 
 
 ]
+
+console.log(cartas);
