@@ -307,7 +307,7 @@ const cartas = [
   },
 
   {
-    "nome": "Scrapwork Mutt",
+    "nome": "Iron-Craw Crusher",
     "tipo": "Artifact Creature — Wurm",
     "custo_mana": "7",
     "valor de mana": "7",
